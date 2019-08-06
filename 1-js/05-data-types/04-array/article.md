@@ -6,7 +6,7 @@ Pero muy seguido encontramos que necesitamos una *colección ordenada*, donde te
 
 No es conveniente usar un objeto en esos casos, porque no provee métodos para manejar el orden de los elementos. No podemos insertar una nueva propiedad "entre" los que ya existen. Los objetos no están destinados para tal uso.
 
-Existe una estructura de datos especial llamada `Array`, para guardar colecciones ordenadas. 
+Existe una estructura de datos especial llamada `Array`, para guardar colecciones ordenadas.
 
 ## Declaration
 
