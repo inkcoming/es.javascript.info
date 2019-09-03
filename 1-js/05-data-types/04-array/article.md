@@ -8,24 +8,24 @@ No es conveniente usar un objeto en esos casos, porque no provee métodos para m
 
 Existe una estructura de datos especial llamada `Array`, para guardar colecciones ordenadas.
 
-## Declaration
+## Declaración
 
-There are two syntaxes for creating an empty array:
+Hay dos sintaxis para crear un array vacío:
 
 ```js
 let arr = new Array();
 let arr = [];
 ```
 
-Almost all the time, the second syntax is used. We can supply initial elements in the brackets:
+Casi todo el tiempo, la segunda sintaxis es usada. Podemos proveer elementos iniciales entre los corchetes:
 
 ```js
 let fruits = ["Apple", "Orange", "Plum"];
 ```
 
-Array elements are numbered, starting with zero.
+Los elementos del array estan numerados, empezando por cero.
 
-We can get an element by its number in square brackets:
+Podemos obtener un elemento por su numero en corchetes:
 
 ```js run
 let fruits = ["Apple", "Orange", "Plum"];
@@ -35,19 +35,19 @@ alert( fruits[1] ); // Orange
 alert( fruits[2] ); // Plum
 ```
 
-We can replace an element:
+Podemos reemplazar un elemento:
 
 ```js
 fruits[2] = 'Pear'; // now ["Apple", "Orange", "Pear"]
 ```
 
-...Or add a new one to the array:
+...O añadir uno nuevo al array:
 
 ```js
 fruits[3] = 'Lemon'; // now ["Apple", "Orange", "Pear", "Lemon"]
 ```
 
-The total count of the elements in the array is its `length`:
+El número total de elementos en el array es su `length`:
 
 ```js run
 let fruits = ["Apple", "Orange", "Plum"];
